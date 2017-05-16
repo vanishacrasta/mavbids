@@ -1,0 +1,195 @@
+body {
+	background:#FCEBB6;
+	font-family:Verdana,Arial,sans-serif;
+	color:#221811;
+	
+}
+
+header {
+	line-height:200%;
+	background-color:#D2B48C;
+	padding:1em;
+	   
+}
+
+nav img{
+	width:115px;
+	position:relative;
+    left:0px;
+	top:0px;
+}
+
+nav {
+	
+	font-weight:bold;
+    float: left;	
+    padding:10px;
+	background-color:#221811;
+	width:10%;
+	height:660px;
+	text-align:center;
+
+	}
+
+	.jobs {
+	width:10%;
+	height:413px;		
+		
+	}
+.menu {
+	
+	width:10%;
+	height:600px;	
+}	
+
+.music {
+	
+	width:10%;
+	height:990px;	
+}	
+
+nav table {
+		
+	padding:30px;
+	
+}
+
+nav table td {
+		padding:2px;
+}
+
+
+a {
+	color:#fcebb6;
+	text-decoration:none;
+	}
+	
+a:visited {
+	color:#D2B48C;
+}
+	
+footer {
+	background-color:#D2B48C;
+	font-size:0.60em;
+	font-style:italic;
+	color:#221811;
+	text-align:center;
+	border-top: 1px solid black;
+}
+
+footer a {
+	color:#0041C2;
+	text-decoration:underline;
+}
+
+
+#wrapper {
+   margin-left:auto;
+   margin-right:auto;
+   width:80%;
+}
+
+article img {
+	width:88%;
+	height:200px;
+}
+
+.content1{
+	margin-left:180px;
+
+}
+
+.content1 h2 {
+	margin-left:30px;
+}
+.content2 h3{
+	margin-left:180px;
+}
+
+.content2 ul{
+	margin-left:140px;
+}
+
+.contentmenu {
+	margin-left:180px;
+}
+
+.address {
+	margin-left:180px;
+}
+
+.month {
+	background-color:#D2B48C;
+	color: #221811;
+	border-bottom: 1px solid black;
+	height:20px;
+}
+
+.month p {
+	margin-left:188px;
+	margin-left:188px;
+}
+
+#musician img {
+	width:50px;
+	 height:50px;
+	 margin-left:220px;
+	 margin-top:30px;
+}
+
+span {
+	display:inline;
+	vertical-align:top;
+	position:relative;
+	top:30px;
+	
+}
+
+
+.address a{
+	color:#0041C2;
+	text-decoration:underline;
+}
+
+.content3{
+	margin-left:200px;
+}
+
+#bar {
+	background-color:#221811;
+	height:20px;
+}
+
+#form {
+	margin-left:450px;
+	
+}
+
+#output1 {
+	margin-left:200px;
+	margin-top:40px;
+	margin-right:20px;
+	
+}
+
+#output3{
+	margin-left:300px;
+	margin-top:40px;
+	margin-right:20px;
+}
+
+#output2 {
+	margin-top:40px;
+	margin-left:300px;
+	margin-right:20px;
+}
+
+#output4 {
+	color:blue;
+	text-align:center;
+}
+
+#output4 #link2 {
+	color:blue;
+}
+

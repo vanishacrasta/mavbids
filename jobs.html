@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<title>JavaJama Coffee House</title>
+<link rel="stylesheet" href="javajam.css"/>
+</head>
+<body id="wrapper">
+<nav class="jobs" >
+<img src="javajamlogo.jpg"/>
+<table>
+<tr><td><a href="home.html">Home</td></tr>
+<tr><td><a href="menu.html">Menu</td></tr>
+<tr><td><a href="http://localhost/musician.php">Music</td></tr>
+<tr><td><a href="jobs.html">Jobs</td></tr>
+</table>
+</nav>
+<header>
+<h1>&nbsp;JavaJam Coffee House</h1>
+</header>
+<article >
+<div id="bar"></div>
+<div class="content1">
+<h2>Jobs at JavaJam</h2>
+<p>want to work at JavaJam? Fill out the form below to start your application. Required fields are marked with an asterick(*).</p>
+</div>
+<div class="content3">
+<script type="text/javascript">
+   function required(){
+   var val1=document.forms["form1"]["Name"].value;
+   var val2=document.forms["form1"]["Email"].value;
+   var val3=document.forms["form1"]["Experience"].value;
+   var atpos = val2.indexOf("@");
+    var dotpos = val2.lastIndexOf(".");
+	 if(val1==""||val2==""||val3==""){
+   alert("Please complete the form");
+   return false;
+   }
+   
+   if (atpos<1 || dotpos<atpos+2 || dotpos+2>=val2.length) {
+        alert("Not a valid e-mail address");
+		return false;
+   }
+
+if (!/^[a-zA-Z]*$/g.test(document.form1.Name.value)) {
+        alert("Invalid characters for Name field");
+		return false;
+        }
+		return true;	
+		}
+  
+</script>
+<form name="form1" method="POST" onsubmit="return required()" action="http://localhost/success.php" >
+<table>
+<tr><td align="right"><label>*Name:</label></td>
+<td><input class="inp" type="text" name="Name"/></td><tr>
+<tr><td align="right"><label>*Email:</label></td>
+<td><input class="inp" type="text" name="Email"/></td></tr>
+<tr><td align="right"><label>*Experience:</label></td>
+<td><textarea name="Experience"></textarea></td>
+<tr><td><input class="inp" type="submit" value="Apply Now"/></td>
+</table>
+</form>
+</div></br></br></br>
+
+<footer><p><i>Copyright &copy; 2016 JavaJam Coffee House</i></br>
+<a href="http://www.gmail.com">vanisha@crasta.com</a></i></p></footer>
+</body>
+</html>
