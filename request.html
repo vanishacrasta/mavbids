@@ -1,0 +1,35 @@
+<!doctype html>
+<head>
+<title>Khalid Center</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body onload='document.myform.name.focus()'>
+<header>KHALID CENTER</header>
+<nav>
+<a href="home.html">Home</a>
+<a href="services.html">Services</a>
+<a href="request.html">Place a request</a>
+<a href="contact.html">Contact</a>
+</nav><br><br>
+<article>
+<h3>Place a request</h3>
+<form name="myform" action="http://localhost/result.php" method="post">
+<h4>Name</h4> <input type="text" Name="name" style="background:none;border-radius:5px;" required><br>
+<h4>Telephone (format:xxxxxxxxxx) </h4> <input type="tel" pattern="^\d{3}\d{3}\d{4}$" name="phone" style="background:none; border-radius:5px;" required ><br>
+<h4>Service</h4> <input type="checkbox" name="service[]" value="AC installation" style="font-family:Arial;" > AC Installation
+  <input type="checkbox" name="service[]" value="AC maintainence" style="font-family:Arial;"> AC maintainence
+  <input type="checkbox" name="service[]" value="AC repair" style="font-family:Arial;">AC Repair
+  <input type="checkbox" name="service[]" value="AC replacement" style="font-family:Arial;"> AC Replacement<br>
+  <input type="checkbox" name="service[]" value="ductless AC" style="font-family:Arial;" >Ductless Air Conditioning
+  <input type="checkbox" name="service[]"  value="heating" style="font-family:Arial;" >Heating
+   <input type="checkbox" name="service[]"  value="control system" style="font-family:Arial;">Zonal Control System<br>
+<h4>Address</h4><textarea cols="40" rows="10" name="address" style="background:none;border-radius:5px;"  required ></textarea><br>
+<h4>Service Date</h4><input type="datetime-local" name="servicedate" style="background:none;border-radius:5px;" required ><br><br>
+<input type="submit" value="Submit" style="background:rgba(224, 255, 255, .3);border-radius:5px;font-weight:bold;font-family:Arial;width:6rem;height:2rem;" >
+</form>
+</article><br><br>
+<footer>
+<p><i>Copywrite &copy; 2014 Khalid Center</p>
+</footer>
+</body>
+</html>

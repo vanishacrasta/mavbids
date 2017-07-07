@@ -1,0 +1,47 @@
+<!doctype html>
+<head>
+<title>Khalid Center</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<header>KHALID CENTER</header>
+<nav>
+<a href="home.html">Home</a>
+<a href="services.html">Services</a>
+<a href="request.html">Place a request</a>
+<a href="contact.html">Contact</a>
+</nav><br><br>
+<article>
+<h4 style="font-size:1.5rem;">Contact Us</h4>
+<h5>Email</h5>
+<p>khalidcenter@gmail.com</p>
+<h5>Telephone</h5>
+<p>+99659856</p>
+<h5>Address</h5>
+<p>Khalid center, Salmiya, Kuwait</p>
+<div id="map" style="border:2px solid LightCyan;width:400px;height:400px;background:white;margin:0 auto;border-radius:5px;"><
+<script>
+function myMap() {
+ var myLatLng = {lat: 29.330107935908387, lng:  48.04304122924805};
+var mapOptions = {
+ 
+    center: new google.maps.LatLng(29.330107935908387 , 48.04304122924805),
+    zoom: 15,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map
+        });
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuQwvrKzrf2vXL9Wo1hGHdIPkdF6a4SoA&callback=myMap"></script>
+</div>
+</article><br><Br>
+<footer>
+<p><i>Copywrite &copy; 2014 Khalid Center</p>
+</footer>
+</body>
+</html>

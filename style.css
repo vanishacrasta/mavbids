@@ -1,0 +1,79 @@
+header{
+line-height:200%;
+background: rgba(224, 255, 255, .5);
+padding:1rem;
+text-align:center;
+font-size:3rem;
+font-family:Serif;
+font-weight:bold;
+color:black;
+border-style: solid  solid none solid;
+border-color:white;
+border-width:3px;
+margin-left:3rem;
+margin-right:3rem;
+margin-top:4rem;
+
+}
+
+nav{
+line-height:200%;
+background-color:rgba(224, 255, 255, .7);
+padding:0.7rem;
+text-align:center;
+border-style: none solid solid solid ;
+border-color:white;
+border-width:3px;
+margin-left:3rem;
+margin-right:3rem;
+
+
+}
+
+nav a {
+padding:2rem;
+font-size:1.25rem;
+font-family:Serif;
+text-decoration:none;
+color:black;	
+font-weight:bold;
+}
+
+nav a:hover {
+	color:navy;
+}
+
+body{
+width:device-width;
+height:device-height;
+background-image:url("background.jpg");
+background-position:center;
+}
+
+article {
+	background:rgba(255, 255, 255, 0.75);
+	margin-left:3rem;
+    margin-right:3rem;
+	border-style: solid;
+border-color:white;
+border-width:3px;
+font-size:1.2rem;
+font-family:Serif;
+text-align:center;
+padding:10px;
+width:50%;
+margin:0 auto;
+border-radius:5px;
+}
+
+footer {
+	text-align:center;
+	font-family:Serif;
+	background:rgba(224, 255, 255, .7);
+	color:black;
+	border-style: solid solid solid solid ;
+border-color:white;
+border-width:3px;
+margin-left:3rem;
+margin-right:3rem;
+}
